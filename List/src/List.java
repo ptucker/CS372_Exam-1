@@ -1,3 +1,21 @@
+/*
+FEEDBACK
+
+Read from the file correctly: 18/20%
+Implement class hierarchy correctly: 18/20%
+Populate appropriate data structures with shape data: 15/15%
+Show list of shapes correctly: 15/15%
+Show specific shape properties correctly: 13/15%
+Well-structured, well-commented code: 12/15%
+
+
+Comments:
+  Color: " ""red""" ???
+  Shape doesn't need to define toString, since it's on Object
+  Shape classes shouldn't create Graphics objects -- now these classes won't work for Android, console
+  Read the file using a separate class, and especially not in the constructor.
+*/
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
